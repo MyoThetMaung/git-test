@@ -1,0 +1,15 @@
+Extension to download
+
+1. advanced new file  (for create file)
+2. file utils (for delete or rename or duplicate file)
+
+
+
+Use method
+
+ctrl + shift + p
+{
+    'advanced new file' to create file
+    'rename' to rename file
+    'duplicate' to duplicate file
+}
