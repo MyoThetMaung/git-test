@@ -1,0 +1,11 @@
+1. json formatter
+2. json viewer
+3. momentum
+4. Pretty print
+5. React Developer Tools
+6. Sum for Trello
+7. uBlock origin
+8. var_masterpiece
+9. view image info (properties)
+10. Vue.js devtools
+11. whatfont
