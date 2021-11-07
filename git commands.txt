@@ -5,24 +5,24 @@ git status
 git commit -m " "
 git log --oneline
 
-git checkout <staging key>		#go to that stage
-git revert <staging key>		#virtual delete staging
-git reset <staging key>			#parmenent delete staging
+git checkout <staging key>		             #go to that stage
+git revert <staging key>		             #virtual delete staging
+git reset <staging key>			             #parmenent delete staging
 
 
 
 git branch
 
-git checkout -b <branch name>		#branch create and be in that branch
-git checkout <branch name>		#go to that branch
-git branch -a				#show all branch
-git branch -D <branch name>		#delete branch in local
-git branch <branch name> --delete	#delete branch in github
+git checkout -b <branch name>		        #branch create and be in that branch
+git checkout <branch name>		            #go to that branch
+git branch -a				                #show all branch
+git branch -D <branch name>		            #delete branch in local
+git branch <branch name> --delete	        #delete branch in github
 
 
 git merge 
 
-git merge <branch name>			#adding sub branch to master branch
+git merge <branch name>			            #adding sub branch to master branch
 *** git merge can conflit. If branch one and two have same texts in tag, we merge on master branch, conflit happen ***
 
 
@@ -39,9 +39,35 @@ git clone https://github.com/MyoThetMaung/git-test.git
 
 git stash 
 
-git stash 
-git stash --include-untracked
-git stash pop
+git stash                                       #temporialy hide code           
+git stash --include-untracked                   #temporialy hide code untracked files
+git stash pop                                   #reshow hide code
+
+
+
+git add and commit in vs code 
+
+    *****   In side bar, we can commit our code     ******
+
+
+
+gitignore
+
+**** we can create .gitignore file. In that file, we can place files to ignore. For example, '/dependency'.  ****
+
+
+readme file
+
+**** we can create readme file in 'https://readme.so/editor' and paste these in our readme file ******
+
+
+First contributors
+
+    Here we can download codes and modified, after that we can upload again.
+    As a practise, we can practice "first contributions" page and go on.
+
+
+
 
 
 
